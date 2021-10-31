@@ -1,0 +1,54 @@
+.form-section{
+    background-color: cornsilk;
+    width: 25rem;
+    height: fit-content;
+    padding: 1.5rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5rem;
+}
+form{
+    background-color: #fff;
+    color: #fff;
+}
+.form-control{
+    border: none;
+    /* margin-top: 1rem; */
+    background-color: #fff;
+}
+label{
+    color:chartreuse;
+}
+.form-control>input{
+    width:20rem;
+    margin-top: 1rem;
+}
+
+.gender-inp>input{
+    width: fit-content;
+    margin: 0.5rem;
+}
+.stream-select>select{
+    width: 10rem;
+}
+small{
+    color: red;
+}
+@media(max-width:768px){
+    .form-section{
+        width: 20rem;
+        padding:.5rem;
+    }
+    .form-control>input{
+        width:15rem;
+        margin-top: 1rem;
+    }
+    .gender-inp>input{
+        width: fit-content;
+        margin: 0.3rem;
+    }
+    .stream-select>select{
+        width: 7rem;
+        margin:1rem 0rem;
+    }
+}
